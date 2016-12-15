@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">flagship events</string>
+
+    <string name="eventname">
+        <item>"Gameathon"</item>
+        <item>"VIT Gamer's League"</item>
+    </string>
+</resources>
