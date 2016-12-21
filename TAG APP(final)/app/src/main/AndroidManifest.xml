@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tk.chiragarora.navigationdrawer">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/tag"
+        android:label="TAG Club"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Feedback"
+            android:label="Feedback"
+            android:parentActivityName=".Settings"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".WriteToUs"
+            android:label="Write to us"
+            android:parentActivityName=".Settings"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1" />
+
+        <activity
+            android:name=".EditTheme"
+            android:label="Edit Theme"
+            android:parentActivityName=".Settings"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1" />
+
+        <activity
+            android:name=".Settings"
+            android:label="Settings"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1" />
+
+        <activity
+            android:name=".AboutUs"
+            android:label="About us"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1" />
+
+        <activity
+            android:name=".BoardAndDevelopers"
+            android:label="@string/title_activity_board_and_developers"
+            android:parentActivityName=".AboutUs"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".FlagshipEvents"
+            android:label="Flagship Events"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1" />
+
+        <activity
+            android:name=".SuggestAnEvent"
+            android:label="Suggest an Event"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1" />
+
+        <activity
+            android:name=".PitchAProject"
+            android:label="Pitch a Project"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1" />
+
+        <activity
+            android:name=".GameAThon"
+            android:label="Game A Thon"
+            android:parentActivityName=".FlagshipEvents"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1" />
+
+        <activity
+            android:name=".VITGamersLeague"
+            android:label="VIT Gamers League"
+            android:parentActivityName=".FlagshipEvents"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1" />
+
+        <activity
+            android:name=".UpcomingEvents"
+            android:label="Upcoming Events"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme1" />
+
+        <activity
+            android:name=".TwoCredits"
+            android:label="2 Credits"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme1" />
+
+        <activity
+            android:name=".EventsAndWorkshops"
+            android:label="Events &amp; Workshops"
+            android:parentActivityName=".TwoCredits"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1"/>
+    </application>
+
+</manifest>

@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">Suggest an event</string>
-    <string name="hint1">Your suggestion</string>
-    <string name="toast">Thanks for the suggestion!</string>
-    <string name="header_text">Lorem Ipsum suggest an event lorem ipsum</string>
-
-</resources>

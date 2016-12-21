@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_suggest_an_event"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="tk.chiragarora.navigationdrawer.SuggestAnEvent"
+    android:background="#000000"
+    android:orientation="vertical">
+
+
+    <com.github.florent37.materialtextfield.MaterialTextField
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mtf_image="@drawable/envelope"
+        android:layout_marginTop="29dp"
+        android:layout_below="@+id/spinner"
+        android:layout_alignParentStart="true">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:textColor="#333"
+            android:textColorHint="#666"
+            android:textSize="15sp" />
+
+    </com.github.florent37.materialtextfield.MaterialTextField>
+
+    <TextView
+        android:text="Suggest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:paddingTop="10dp"
+        tools:paddingLeft="10dp"
+        android:id="@+id/textView"
+        android:textColor="#ffffff"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:textSize="30sp"
+        android:layout_marginTop="28dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView2" />
+
+    <TextView
+        android:text="   an"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textSize="26sp"
+        tools:textSize="36sp"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/textView"
+        android:layout_alignEnd="@+id/textView3"
+        android:layout_marginEnd="52dp" />
+
+    <TextView
+        android:text="  Event"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        tools:textSize="26sp"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+
+    <Button
+        android:text="SUBMIT"
+        android:textColor="#ffffff"
+        android:background="@drawable/mybutton"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        tools:fontFamily="sans-serif"
+        tools:textSize="24sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="14dp"
+        android:fontFamily="sans-serif-condensed"
+        android:onClick="displayToast"/>
+
+    <com.github.florent37.materialtextfield.MaterialTextField
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mtf_image="@drawable/note"
+        android:layout_marginBottom="28dp"
+        android:layout_above="@+id/button"
+        android:layout_alignParentStart="true">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Suggestion"
+            android:textColor="#333"
+            android:textColorHint="#666"
+            android:textSize="15sp" />
+
+    </com.github.florent37.materialtextfield.MaterialTextField>
+
+    <com.jaredrummler.materialspinner.MaterialSpinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="23dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

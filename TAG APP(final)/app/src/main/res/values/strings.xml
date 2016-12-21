@@ -1,0 +1,121 @@
+<resources>
+    <string name="app_name">TAG Club</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="tag">Established about five years ago, Technology and Gaming Club, commonly known as <b>TAG Club</b>, has grown its reputation to become one of the most sought after clubs dealing with technical advancements and has established a monopoly in the sphere of Gaming and Game Development. \nWe are the hosts of one of the biggest \ne-gaming tournaments at college level, held bi-annually during the college\'s technical fest <b>graVITas</b>, in September and <b>Riviera</b>, the cultural fest, held in February.</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="chirag_arora2015_vit_ac_in">chirag.arora2015@vit.ac.in</string>
+    <string name="chirag_arora">Chirag Arora</string>
+    <string-array name="titles">
+        <item>Feedback</item>
+        <item>Write to us</item>
+        <item>Edit Theme</item>
+    </string-array>
+    <string-array name="descriptions">
+        <item>Your feedback matters!</item>
+        <item>Tell us what you think!</item>
+        <item>Change the visuals!</item>
+    </string-array>
+
+    <string-array name="titles1">
+        <item>Indraneel Dey</item>
+        <item>Ankit Srivastava</item>
+        <item>Hemant Bangar</item>
+        <item>Saurabh Sharma</item>
+        <item>Milendu Paritosh</item>
+        <item>Srijan Rana</item>
+        <item>Anubhav Jha</item>
+        <item>Rutuja Jadhav</item>
+        <item>Priyam Shah</item>
+        <item>Shweta Bedekar</item>
+        <item>Rajit Pimpale</item>
+    </string-array>
+    <string-array name="descriptions1">
+        <item>PRESIDENT</item>
+        <item>VICE PRESIDENT</item>
+        <item>GENERAL SECRETARY</item>
+        <item>OPERATION HEAD</item>
+        <item>EVENTS HEAD</item>
+        <item>FINANCIER</item>
+        <item>TECHNICAL HEAD</item>
+        <item>TECHNICAL HEAD</item>
+        <item>PUBLICITY HEAD</item>
+        <item>PUBLIC RELATION OFFICER</item>
+        <item>GAME DEVELOPMENT HEAD</item>
+    </string-array>
+
+    <string-array name="titles2">
+        <item>Ankit Srivastava</item>
+        <item>Anubhav Jha</item>
+        <item>Atharva Kulkarni</item>
+        <item>Bhavya Singh</item>
+        <item>Chirag Arora</item>
+        <item>Jaimin Fojdar</item>
+        <item>Kunal Sharma</item>
+        <item>Lakshay Vaikunth</item>
+        <item>Puneet Singh</item>
+        <item>Riddhi Srivastava</item>
+        <item>Roshni Sharma</item>
+        <item>Saurabh Upadhyay</item>
+        <item>Shivam Srivastava</item>
+        <item>Shubham Shrimali</item>
+        <item>Shweta Bedekar</item>
+        <item>Siddharth Singh</item>
+        <item>Srijan Rana</item>
+    </string-array>
+    <string-array name="descriptions2">
+        <item>UI Designer &amp; UI Developer</item>
+        <item>UI Developer</item>
+        <item>UI Designer</item>
+        <item>UI Developer</item>
+        <item>UI Designer &amp; UI Developer</item>
+        <item>UI Developer</item>
+        <item>UI Designer</item>
+        <item>UI Designer</item>
+        <item>UI Designer</item>
+        <item>UI Designer &amp; UI Developer</item>
+        <item>UI Developer</item>
+        <item>UI Developer</item>
+        <item>UI Designer</item>
+        <item>UI Designer</item>
+        <item>UI Developer</item>
+        <item>UI Developer</item>
+        <item>UI Developer</item>
+    </string-array>
+    <string name="title_activity_board_and_developers">Board &amp; Developers</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="hint1">Your suggestion</string>
+    <string name="toast">Thanks for the suggestion!</string>
+    <string name="header_text">Lorem Ipsum suggest an event lorem ipsum</string>
+    <string name="msg">Our operators are not available at the moment. Please leave a message and we will contact you soon.</string>
+    <string name="flagship"><![CDATA[We are the hosts of one of the biggest \ne-gaming tournaments at college level, held \nbi-annually during graVITas & Riviera.]]></string>
+    <string name="vgl">VIT Gamers League provides a huge platform for amateurs and rookies to enter competitive tournaments without any fear and experience the true spirit of a gaming competition. We hope to set up a thrilling and fun filled experience for all the budding gamers.</string>
+    <string name="gat">An event held annually till now during the college\'s technical fest, graVITas, in September has grown in stature in the past few years to become one of the biggest e-sports tournament at college level all over India.\nIn just a short span of 5 years, <b>Game-A-Thon</b> has spearheaded our aim to encourage gaming among masses and also propagandize interest of students in the sphere of game development.</string>
+    <string name="title_activity_newsfeed">Newsfeed</string>
+    <string name="twocredits">According to the rules of our renowned institution, students registering under 2 credits courses get extra 2 credits for it which is added in their overall credits which they have to finish. And TAG is one such club among all eminent clubs that offers 2 credit course. In order to fulfill all the criteria of students registering under 2 credit,firstly they need to register normally under it during course registration period. Secondly, they need to attend all the workshops and events conducted by TAG which will be considered for their attendance. They need to maintain the attendance of required minimum for passing 2 credits. Otherwise, you will be debarred and you need to re-register if you wish to have an extra credit through co-curricular basket.</string>
+
+    <string-array name="person_name">
+        <item>"Chirag Arora"</item>
+        <item>"WORDPRESS"</item>
+        <item>"3d-MODELLING"</item>
+        <item>"PHOTOSHOP"</item>
+    </string-array>
+
+    <string-array name="person_email">
+        <item>"PHOTOSHOP"</item>
+        <item>"PC-BUILDER"</item>
+        <item>"WORDPRESS"</item>
+        <item>"3D-MODELLING"</item>
+    </string-array>
+
+    <string-array name="person_mobile">
+        <item>"We will be teaching you how to alter a photographic image digitally using Photoshop."</item>
+        <item>"It covers all aspects of PC building and helps you configure your own personal computer."</item>
+        <item>"Here we teach you how to create your own website using the most powerful blogging tool(Wordpress)."</item>
+        <item>"We will be teaching you the basics of Maya,then guide you to make a simple structure with texturing."</item>
+    </string-array>
+
+</resources>

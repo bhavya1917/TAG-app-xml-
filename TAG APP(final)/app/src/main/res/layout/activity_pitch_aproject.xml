@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_pitch_a_project"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="tk.chiragarora.navigationdrawer.PitchAProject"
+    android:background="#000000">
+
+
+    <Button
+        android:text="SUBMIT"
+        android:textColor="#ffffff"
+        android:background="@drawable/mybutton"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        tools:fontFamily="sans-serif"
+        tools:textSize="24sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="14dp"
+        android:fontFamily="sans-serif-condensed"
+        android:onClick="displayToast"/>
+
+    <TextView
+        android:text=" perfect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textSize="30sp"
+        tools:textSize="36sp"
+        android:textColor="#ffffff"
+        android:layout_marginStart="108dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:text="  the"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:paddingTop="10dp"
+        tools:paddingLeft="10dp"
+        android:id="@+id/textView"
+        android:textColor="#ffffff"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:textSize="24sp"
+        android:layout_marginStart="12dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginTop="29dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:inputType="textLongMessage"
+        android:textSize="24sp"
+        android:background="@drawable/border_style2"
+        android:textCursorDrawable="@null"
+        android:layout_height="150dp"
+
+        android:layout_above="@+id/button"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="30dp"
+        android:gravity="top"
+        android:hint="Project Description"
+        android:textColor="#ffffff"
+        android:textColorHint="#474743"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:inputType="textPersonName"
+        android:id="@+id/editText"
+        android:textSize="24sp"
+        tools:layout_weight="15"
+        android:background="@drawable/border_style2"
+        android:layout_marginTop="58dp"
+        android:hint="Project Title"
+        android:textCursorDrawable="@null"
+        android:textColorHint="#474743"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="pitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:textSize="26sp"
+        android:textColor="#ffffff"
+        tools:textSize="26sp"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp" />
+
+
+
+</RelativeLayout>
